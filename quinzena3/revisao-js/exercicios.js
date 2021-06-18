@@ -9,12 +9,25 @@ function inverteArray(array) {
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
-
+  const numerosPares = array.filter((item) => {
+    return item % 2 === 0
+        
+  })
+  const resultado = numerosPares.map((item2) => {
+    return item2 * item2
+  })
+  return resultado
 }
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-
+  let arrayPar = []
+  for (let i = 0; i < array.length; i++) {
+    if(array[i] % 2 === 0){
+      arrayPar.push(array[i])
+    }
+  }
+  return arrayPar
 }
 
 // EXERCÍCIO 04
