@@ -49,7 +49,14 @@ return array.length
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
-
+  const booleano1 = true //T
+  const booleano2 = false //F
+  const booleano3 = !booleano2 // T 
+  const booleano4 = !booleano3 //F
+  
+  let respostas = [false, false, true, true, true]
+  return respostas
+  
 }
 
 // EXERCÍCIO 07
