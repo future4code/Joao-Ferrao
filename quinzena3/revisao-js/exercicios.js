@@ -86,12 +86,39 @@ function checaTriangulo(a, b, c) {
 
 // EXERCÍCIO 09
 function comparaDoisNumeros(num1, num2) {
+  function maiorNumero(num1, num2) {
+    if (num1 > num2) {
+      return num1
+    } else {
+      return num2
+    }
+  }
+  function menorNumero(num1, num2) {
+    if (num1 < num2) {
+      return num1
+    } else {
+      return num2
+    }
+  }
+  function maiorDivisivel(num1,num2) {
+    if((maiorNumero(num1,num2) % menorNumero(num1,num2)) === 0) {
+      return true
+    } else{
+      return false
+    }
+  }
+  function diferencaNumeros(num1,num2) {
+    const diferencaNumeros = (maiorNumero(num1,num2) - menorNumero(num1,num2))
+    return diferencaNumeros
+  }
+  
   // Formato do objeto a ser retornado:
-  // {
-  //   maiorNumero: X,
-  //   maiorDivisivelPorMenor: Y,
-  //   diferenca: Z
-  // }
+  const resultado = {
+    maiorNumero: maiorNumero(num1,num2),
+    maiorDivisivelPorMenor: maiorDivisivel(maiorNumero(num1,num2),menorNumero(num1,num2)),
+    diferenca: diferencaNumeros(num1,num2),
+  }
+  return resultado
 }
 
 // EXERCÍCIO 10
