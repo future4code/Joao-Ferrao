@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Controle de Estoque</title>
     <link rel="icon" type="imagem/png" href="./img/pkmlogo.jpg" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
-    <br>
-    <br>
-    
-    <div>
-        <img src="img/pkestorelogo.jpg" alt="Logo da empresa"></img>
+    <header>
+        <div class="linksDiv">
+            <a class="links" href="index.html">Página Inicial</a>
+            <a class="links" href="ctrl-estoque.html">Controle de Estoque</a>
+            <a class="links" href="add-produto.html">Adicionar Produto</a>
+            <a class="links" href="funcionarios.html">Funcionários</a>
+        </div>
+    </header>
+
+    <div class="divLogo">
+        <img class="logo" src="img/pkestorelogo.jpg" alt="Logo da empresa"></img>
         <h1>
-        <p>PokeStore</p>
+            <p>PokeStore</p>
         </h1>
 
     </div>
-    
 
-    <h2>Controle de Estoque</h2>
+    <div class="title">
+        <h1>Controle de Estoque</h1>
+    </div>
 
-    <table>
+    <table class="tabelaProdutos">
         <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
+            <th class="tabelaNomes">Foto</th>
+            <th class="tabelaNomes">Descrição</th>
+            <th class="tabelaNomes">Preço (R$)</th>
+            <th class="tabelaNomes">Quantidade disponível</th>
         </tr>
 
         <tr>
-            <td><img src="./img/charmander.jpg" alt="Charmander, Pokemon Inicial, tipo: Fogo"/></td>
-            <td> Charmander Inicial (o melhor de todos) - Tipo: Fogo </td>
-            <td> 150,00 </td>
-            <td> 3 </td>
+            <td><img class="imgTabela" src="./img/charmander.jpg" alt="Charmander, Pokemon Inicial, tipo: Fogo" /></td>
+            <td class="descriptTabela"> Charmander Inicial (o melhor de todos) - Tipo: Fogo </td>
+            <td class="preco"> 150,00 </td>
+            <td class="estoque"> 3 un </td>
         </tr>
 
         <tr>
-            <td><img src="./img/squirtle2.jpg" alt="Squirtle Bombado(BIRLLLLL) - Tipo: Luta"/></td>
-            <td> Squirtle Bombado(BIRLLLLL) - Tipo: Luta </td>
-            <td> 749,00 </td>
-            <td> 1 </td>
+            <td><img class="imgTabela" src="./img/squirtle2.jpg" alt="Squirtle Bombado(BIRLLLLL) - Tipo: Luta" /></td>
+            <td class="descriptTabela"> Squirtle Bombado(BIRLLLLL) - Tipo: Luta </td>
+            <td class="preco"> 749,00 </td>
+            <td class="estoque"> 1 un</td>
         </tr>
 
         <tr>
-            <td><img src="./img/bulbassauro.jpg" alt="Bulbassauro em pixels, porque ele é ruim mesmo"/></td>
-            <td> Bulbassauro, é tão ruim que vendemos só em pixels. Sei que o Bruno Movio te ama,<br>
-                 mas vamos combinar, é uma péssima primeira escolha </td>
-            <td> 49,90 </td>
-            <td> 12 </td>
+            <td><img class="imgTabela" src="./img/bulbassauro.jpg"
+                    alt="Bulbassauro em pixels, porque ele é ruim mesmo" /></td>
+            <td class="descriptTabela"> Bulbassauro, é tão ruim que vendemos só em pixels. Sei que o Bruno Movio te
+                ama,<br>
+                mas vamos combinar, é uma péssima primeira escolha </td>
+            <td class="preco"> 49,90 </td>
+            <td class="estoque"> 12 un </td>
         </tr>
 
         <tr>
-            <td><img src="./img/Pikachu.jpg" alt="Pikachu com dentadura"/></td>
-            <td> Pikachu de dentadura - Não sei nem porque estou vendendo esse. <br>
+            <td><img class="imgTabela" src="./img/Pikachu.jpg" alt="Pikachu com dentadura" /></td>
+            <td class="descriptTabela"> Pikachu de dentadura - Não sei nem porque estou vendendo esse. <br>
                 Ele só tem esse belo sorriso </td>
-            <td> 348,00 </td>
-            <td> 1 </td>
+            <td class="preco"> 348,00 </td>
+            <td class="estoque"> 1 un</td>
         </tr>
 
         <tr>
-            <td><img src="./img/mewtwo.jpg" alt="Mewtwo cabuloso"/></td>
-            <td> Mewtwo Apelão! - Esses dispensa comentários </td>
-            <td> 999,00 </td>
-            <td> 1 </td>
+            <td><img class="imgTabela" src="./img/mewtwo.jpg" alt="Mewtwo cabuloso" /></td>
+            <td class="descriptTabela"> Mewtwo Apelão! - Esses dispensa comentários </td>
+            <td class="preco"> 999,00 </td>
+            <td class="estoque"> 1 un</td>
         </tr>
         <!-- Crie mais uma linha desta tabela abaixo \/ -->
 
     </table>
-
+    <footer>
+        <p> &copy; 2021, João Rafael Ferrão</p>
+    </footer>
 </body>
+
 </html>

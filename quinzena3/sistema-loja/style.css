@@ -1,0 +1,104 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(59, 76, 202);
+    
+}
+.linksDiv {
+    text-align: center;
+    background-color: rgb(59, 76, 202); 
+    padding: 32px; 
+    margin:15px;
+}
+.links{
+    font-size: 1.1em;
+    color: rgb(255, 222, 0);
+    margin: 25px;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+.links:hover{
+    color: rgb(179, 161, 37);
+    
+}
+.logo {
+    width: 40%;
+    margin-left: 30px;
+    padding: 30px;
+
+}
+.divLogo {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.ash{
+    border-radius: 25px;
+    width: 100%;
+    height: 500px;
+}
+article {
+    text-align: center;
+    font-size: 1.1em;
+    padding: 30px;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+.redesSociais {
+    width: 50px;
+    padding: 15px;
+    margin: 15px;
+}
+.funcionarios {
+    text-align: center;
+    padding: 15px;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+}
+.tabelaNomes {
+    text-align: left;
+    margin: 30px;
+    padding: 30px;
+    font-size: 1.4em;
+
+}
+.imgTabela {
+    border-radius: 50%;
+    margin: 15px;
+    padding: 15px;
+    ;
+}
+.descriptTabela {
+    font-size: 1.3em;
+    color: rgb(179, 161, 37);
+    margin: 15px;
+    padding: 15px;
+    
+}
+.preco {
+    font-size: 1.3em;
+    color: rgb(179, 161, 37);
+    margin: 15px;
+    padding: 15px;
+}
+.estoque {
+    font-size: 1.3em;
+    color: rgb(179, 161, 37);
+    margin: 20px;
+    padding: 30px;
+}
+.formulario {
+    text-align: center;
+    
+}
+form {
+    font-size: 1.2em;
+    padding: 25px;
+    margin: 15px;
+}

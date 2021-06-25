@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produto</title>
     <link rel="icon" type="imagem/png" href="./img/pkmlogo.jpg" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
-    <div>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
-    </div>
-    <br>
-    <br>
+    <header>
+        <div class="linksDiv">
+            <a class="links" href="index.html">Página Inicial</a>
+            <a class="links" href="ctrl-estoque.html">Controle de Estoque</a>
+            <a class="links" href="add-produto.html">Adicionar Produto</a>
+            <a class="links" href="funcionarios.html">Funcionários</a>
+        </div>
+    </header>
 
-    <div>
-        <img src="img/pkestorelogo.jpg" alt="Logo da empresa"></img>
+    <div class="divLogo">
+        <img class="logo" src="img/pkestorelogo.jpg" alt="Logo da empresa"></img>
         <h1>
-        <p>PokeStore</p>
+            <p>PokeStore</p>
         </h1>
-    </div>
-    
 
-    
-    <h2>Adicionar Produto</h2>
-    <form action="">
-        <div>
+    </div>
+
+
+
+    <h2 class="title">Adicionar Produto</h2>
+    <form class="formulario" action="">
+        <div class="entradaForm">
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
         </div>
-        
-        <div>
+
+        <div class="entradaForm">
             <label for="descricao">Descrição do produto: </label>
             <!-- Adicione o id apropriado para o input abaixo -->
             <input type="textarea" id="descricao" name="descrição">
         </div>
-        
-        <div>
+
+        <div class="entradaForm">
             <label for="preco">Preço (em R$): </label>
             <!-- Adicione o id apropriado e o type para receber números abaixo -->
             <input type="number" id="preco" name="preço">
         </div>
-        
-        <div>
+
+        <div class="entradaForm">
             <!-- Preencha as propriedades necessárias para os elementos abaixo -->
             <label for="quantidade">Quantidade disponível: </label>
             <input type="number" id="quantidade" name="Quantidade">
@@ -57,6 +61,10 @@
         </div>
 
     </form>
+    <footer>
+        <p> &copy; 2021, João Rafael Ferrão</p>
+    </footer>
 
 </body>
+
 </html>
