@@ -1,0 +1,93 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h2, p {
+    padding: 8px;
+}
+
+button{
+    background-color: mediumvioletred;
+    border: none;
+    font-size: 24px;
+}
+button:active{
+    background-color: #f2d0e0;
+}
+.icone{
+    height: 1.6em;
+    margin-right:10px;
+}
+#icone-header{
+    height: 2em;
+}
+
+.icone-e-texto{
+    display: flex;
+    align-items: center;
+    height: 3em;
+    font-size: 24px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: mediumvioletred;
+    justify-content:space-between;
+    padding: 0 20px;
+    align-content:center;
+    grid-column: 1/ -1;
+
+
+}
+nav {
+    background-color: #f2d0e0;
+    padding: 10px;
+}
+
+.botao-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-produto{
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px darkgray;
+    justify-content: space-between;
+    
+}
+.img-card{
+    width: 100%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    margin: 8px;
+    padding: 24px;
+      
+}
+.general-container {
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 300px 1fr;
+    height: 100vh;
+
+}
+
+footer{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/ -1;
+    font-size: 24px;
+}
