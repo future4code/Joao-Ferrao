@@ -8,6 +8,7 @@
 .container{
     display: grid;
     grid-template-rows: 60px 1fr 60px;
+    width: 100vw;
 }
 header{
     
@@ -17,10 +18,24 @@ header{
     align-items: center;
     justify-content: space-evenly;
     font-size: 1,7em;
-    height: 60px;
     border-bottom: 3px solid rgb(98, 100, 102,.5);
     padding-bottom: 26px;
-    
+    width: 100vw;
+}
+
+@media screen and (min-device-width :280px) and (max-device-width : 550px) {
+    /* celulares */
+      
+    #video-container{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        background-color: #282828;
+        gap:4px;
+        justify-content: center;
+        align-content: center;
+        
+    } 
 }
 .icone-e-texto{
     display: flex;
@@ -30,51 +45,51 @@ header{
 .botao{
     display: flex;
     align-self: center;
-    padding-top: 15px;
+    padding-top: 5%;
     
 }
 
 
-#video-container{
+@media screen and (min-device-width :550px) {
+    #video-container{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #282828;
-    gap:12px;
+    gap:8px;
     justify-content: center;
     align-content: center;
     
+    }
 }
 .video-card{
     text-shadow: #282828;
-    box-shadow: 5px 5px 8px rgb(65, 64, 64) ;
-    margin: 0 10px;
+    box-shadow: 3px 3px rgb(65, 64, 64, .5) ;
+    margin: 0 3%;
       
     
     
 }
-a{
+.video-card a, h2, video{
     text-decoration: none;
     color: #FF0000;
     text-align: center;
+    width: 100%;
         
 }
-a:visited{
-    text-decoration: none;
-}
-.video-thumb{
-    width: 350px;
-    height: 250px;
 
-    
+.video-thumb{
+    width: 85%;
+      
     
 }
 footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: #282828;
     color: #FF0000;
-    text-align: center;
     font-size: 1.4em;
-    height: 60px;
     border-top: 3px solid rgb(98, 100, 102,.5);
     padding-top: 26px;
     
