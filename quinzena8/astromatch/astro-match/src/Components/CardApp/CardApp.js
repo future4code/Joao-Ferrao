@@ -1,9 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from 'styled-components';
-import DisLikeButton from "./DisLikeButton/DisLikeButton";
 import HeaderCard from "./HeaderCard/HeaderCard";
-import LikeButton from "./LikeButton/LikeButton";
 import UserInterface from "./UserInterface/UserInterface";
+import MyMatches from "./MyMatches/MyMatches"
 
 
 
@@ -15,28 +14,27 @@ const ContainerCardApp = styled.div`
     border-radius: 10px;
     background-color: white;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    box-shadow: 2px 3px 10px -2px rgba(0,0,0,0.9);
+    margin-top: 25px;
 
 `
-const Buttons = styled.div`
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-    width: 100%;
-`
+
 
 
 const CardApp = () => {
+    const [showMyMatches, setShowMyMatches] = useState(false)
+
     return (
         <ContainerCardApp>
-            <HeaderCard />
-            <UserInterface />
-            <Buttons>
-                <DisLikeButton />
-                <LikeButton />
-            </Buttons>
+            <HeaderCard setShowMyMatches={setShowMyMatches} showMyMatches={showMyMatches} />
 
+            {showMyMatches ? (
+                <MyMatches />
+            ) : (
+                <UserInterface />
+            )}
         </ContainerCardApp>
     )
 }
