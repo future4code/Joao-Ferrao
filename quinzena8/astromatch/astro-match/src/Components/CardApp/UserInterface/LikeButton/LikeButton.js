@@ -46,10 +46,10 @@ export default function LikeButton({
     return (
         <ContainetLikeButton>
             <a onClick={() => choosePerson(false)}>
-                <img src="./images/cancel.png" alt="Dislike Button" />
+                <img src="./Images/cancel.png" alt="Dislike Button" />
             </a>
             <a onClick={() => choosePerson(true)}>
-                <img src="./images/heart.png" alt="Like Button" />
+                <img src="./Images/heart.png" alt="Like Button" />
             </a>
         </ContainetLikeButton>
     )
