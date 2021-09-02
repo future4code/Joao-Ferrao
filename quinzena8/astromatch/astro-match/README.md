@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+#  ![Corações](https://github.com/Jrferrao/Jrferrao/blob/main/Imagens/hearts.png?raw=true) ASTRO-MATCH
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A ideia central deste projeto é realizar uma integração com a  [API]([Astro Match (getpostman.com)](https://documenter.getpostman.com/view/7549981/SW12yx56?version=latest#10bd5315-5a55-44b2-9d2c-e26f9c533f5f))  **ASTRO-MATCH**, que permite a criação de um aplicativo de gerenciamento de matches, estilo Tinder
 
-## Available Scripts
 
-In the project directory, you can run:
+----------
+**Visão Geral**
+----------
 
-### `npm start`
+![Pagina Inicial](https://github.com/Jrferrao/Jrferrao/blob/main/Prints/Capturar1.JPG?raw=true)
+![Pagina de Matches](https://github.com/Jrferrao/Jrferrao/blob/main/Prints/Capturar2.JPG?raw=true)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+----------
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🖋  Descrição do projeto
 
-### `npm test`
+-   *1.  *Tela inicial**
+    
+    Ao entrar na nossa aplicação, o usuário deve ser capaz de ver uma opção de perfil para escolher. Devem ser mostrados a foto, o nome e a descrição do dos perfis. Dois botões devem estar na tela: um que permita "dar _match_" (uma escolha "positiva") e o outro que permita descartar a sugestão (uma escolha "negativa"). Por fim, deve existir um botão que leve para a tela de matches.
+    
+-   *2.  Tela de matches*
+    
+    Essa tela é constituída de uma lista de usuários que "deram _match_" com o usuário que estiver usando a nossa aplicação. Devem ser mostrados as fotos e os nomes dos perfis.
+        
+-   *3.  Possibilidade de Resetar*
+    
+    O usuário da nossa aplicação pode limpar as informações dos matches que deram a qualquer momento em qualquer tela do site. Para isso, adicione um botão que fique bem claro que faz isso (com uma mensagem ou um ícone pertinente)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+----------
 
-### `npm run build`
+## ![globo](https://github.com/Jrferrao/Jrferrao/blob/main/Imagens/worldwide.png?raw=true)  Como acessar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [Link do surge](http://husky-fact.surge.sh/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ![Postman](https://github.com/Jrferrao/Jrferrao/blob/main/Imagens/postman.png?raw=true)  API utilizada
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   [Link Documentação API][Astro Match ](https://documenter.getpostman.com/view/7549981/SW12yx56?version=latest#10bd5315-5a55-44b2-9d2c-e26f9c533f5f)
 
-### `npm run eject`
+## ![enter image description here](https://github.com/Jrferrao/Jrferrao/blob/main/Imagens/rocket.png?raw=true)  Tecnologias utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O projeto foi desenvolvido usando as seguintes tecnologias:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   [React.js](https://pt-br.reactjs.org/docs/getting-started.html)
+-   [Styled-Components](https://styled-components.com/docs)
+-   [Axios](https://axios-http.com/ptbr/docs/intro)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+##  ![Save](https://github.com/Jrferrao/Jrferrao/blob/main/Imagens/save.png?raw=true) Como baixar o projeto
 
-## Learn More
+Primeiro instale o  [Git](https://git-scm.com/),  [Node.jS](https://nodejs.org/pt-br/download/)  +  [npm](https://www.npmjs.com/get-npm)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Clonar o repositório
+git clone [GitHub](https://github.com/future4code/Joao-Ferrao/pull/31)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Entrar no diretório
+cd astro-match
 
-### Code Splitting
+# Instalar as dependências
+npm install
+npm install styled-components
+npm install axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Rodar o projeto
+npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Desenvolvido   por João Rafael Ferrão💙  
 
-### Making a Progressive Web App
+-   © 2021 GitHub, Inc.
+-   [Terms](https://docs.github.com/en/github/site-policy/github-terms-of-service)
+-   [Privacy](https://docs.github.com/en/github/site-policy/github-privacy-statement)
+-   [Security](https://github.com/security)
+-   [Status](https://www.githubstatus.com/)
+-   [Docs](https://docs.github.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[](https://github.com/ "GitHub")
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-   [Contact GitHub](https://support.github.com/)
+-   [Pricing](https://github.com/pricing)
+-   [API](https://docs.github.com/)
+-   [Training](https://services.github.com/)
+-   [Blog](https://github.blog/)
+-   [About](https://github.com/about)
